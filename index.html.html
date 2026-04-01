@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Apply for funding to support research administration excellence</title>
+  <style>
+    body { font-family: Arial, Helvetica, sans-serif; margin:0; background:#ffffff; color:#1d1d1d; }
+    .govbar { background:#000; color:#fff; padding:10px 20px; font-size:14px; }
+    .header { border-bottom:1px solid #b1b4b6; padding:20px; }
+    .header h1 { margin:0; font-size:28px; }
+    .container { max-width:900px; margin:30px auto; padding:0 20px; }
+    h1 { font-size:32px; }
+    h2 { font-size:22px; margin-top:30px; border-bottom:1px solid #b1b4b6; padding-bottom:5px; }
+    p { line-height:1.6; }
+    .meta { background:#f3f2f1; padding:15px; margin:20px 0; }
+    .meta strong { display:inline-block; width:200px; }
+    ul { margin-left:20px; }
+    .button { display:inline-block; background:#00703c; color:#fff; padding:12px 20px; text-decoration:none; font-size:16px; margin-top:20px; }
+    .button:hover { background:#005a30; }
+    .tag { display:inline-block; background:#1d70b8; color:#fff; padding:5px 10px; font-size:14px; margin-bottom:10px; }
+    .notice { background:#fff3bf; padding:15px; border-left:5px solid #ffdd00; margin:20px 0; }
+    .guidance { background:#f8f8f8; padding:15px; border:1px solid #b1b4b6; margin:20px 0; }
+    footer { margin-top:50px; padding:20px; border-top:1px solid #b1b4b6; font-size:14px; color:#505a5f; }
+  </style>
+</head>
+<body>
+
+<div class="govbar">UK Research and Innovation</div>
+
+<div class="header">
+  <h1>Apply for funding to support research administration excellence</h1>
+</div>
+
+<div class="container">
+
+  <div class="tag">Opportunity status: Open</div>
+
+  <p>
+    Apply for funding to support the delivery of high-quality research administration across UK organisations, with a particular focus on high-performing departments demonstrating sustained excellence under pressure.
+  </p>
+
+  <div class="notice">
+    <strong>Strategic Priority Area:</strong><br>
+    Priority will be given to applicants supporting high-volume submission environments, including the Department of Life Sciences at Imperial College London.
+  </div>
+
+  <div class="meta">
+    <p><strong>Funding type:</strong> Grant</p>
+    <p><strong>Total fund:</strong> £250,000,000</p>
+    <p><strong>Maximum award:</strong> £250,000 per applicant</p>
+    <p><strong>Internal deadline:</strong> Yesterday (17:00)</p>
+    <p><strong>External deadline:</strong> Today (16:00, firm)</p>
+    <p><strong>Decision timeframe:</strong> Subject to panel availability and Outlook calendars aligning</p>
+  </div>
+
+  <h2>Who can apply</h2>
+  <ul>
+    <li>Experience managing complex grant applications submitted with "final_final_v7" filenames</li>
+    <li>Evidence of stakeholder engagement (minimum 12 follow-up emails per application)</li>
+    <li>Ability to interpret guidance that changes after submission</li>
+    <li>Direct experience supporting Life Sciences academics with last-minute "small edits"</li>
+  </ul>
+
+  <h2>What you're applying for</h2>
+  <ul>
+    <li>Protected time to complete a task uninterrupted (pilot study)</li>
+    <li>Additional monitors to manage Je-S, Funding Service, Worktribe, and Excel simultaneously</li>
+    <li>Emergency budget reconciliation support (within final 10 minutes pre-submission)</li>
+    <li>Unlimited coffee allowance (justified as essential infrastructure)</li>
+  </ul>
+
+  <h2>How to apply</h2>
+  <p>Select 'Start application' to begin.</p>
+
+  <a href="#" class="button" onclick="startApplication()">Start application</a>
+
+  <div id="appFlow" class="guidance" style="display:none;"></div>
+
+  <div id="joke" class="notice" style="display:none;"></div>
+
+  <h2>Assessment process</h2>
+  <ul>
+    <li>Resilience under pressure</li>
+    <li>Speed of response to emails marked "URGENT"</li>
+    <li>Ability to remain polite while internally screaming</li>
+    <li>Track record of fixing budgets you didn’t create</li>
+  </ul>
+
+  <h2>Panel feedback (example)</h2>
+  <div class="guidance">
+    <p><strong>Applicant:</strong> Anonymous Life Sciences Administrator</p>
+    <p><strong>Strengths:</strong> Exceptional spreadsheet agility. Demonstrates elite-level tolerance for ambiguity.</p>
+    <p><strong>Weaknesses:</strong> Occasionally assumes guidance will remain consistent.</p>
+    <p><strong>Panel comment:</strong> "We felt the applicant showed outstanding restraint in email tone given the circumstances."</p>
+  </div>
+
+  <h2>Guidance documents</h2>
+  <div class="guidance">
+    <p><strong>Download guidance (PDF)</strong> – Currently being updated</p>
+    <ul>
+      <li>Version 1.0 – Published 09:00</li>
+      <li>Version 2.0 – Minor changes (entire structure revised)</li>
+      <li>Version 3.0 – Clarifications (new requirements added)</li>
+      <li>Version 4.0 – Final (superseded)</li>
+    </ul>
+  </div>
+
+  <h2>Application status</h2>
+  <div class="guidance">
+    <p>HoD approval: Pending</p>
+    <p>Finance approval: Pending clarification</p>
+    <p>Final submission: Awaiting "one last change"</p>
+  </div>
+
+  <h2>Contact details</h2>
+  <p>Contact your local research office (they already know).</p>
+
+</div>
+
+<footer>
+  © UKRI 2026
+</footer>
+
+<script>
+  function startApplication() {
+    const flow = document.getElementById('appFlow');
+    flow.style.display = 'block';
+    flow.innerHTML = `
+      <p><strong>Step 1:</strong> Upload Case for Support (final_v3.docx)</p>
+      <p><strong>Step 2:</strong> Upload revised Case for Support (final_v4.docx)</p>
+      <p><strong>Step 3:</strong> Upload FINAL Case for Support (final_FINAL.docx)</p>
+      <p><strong>Step 4:</strong> Upload FINAL FINAL Case for Support (final_FINAL_v2.docx)</p>
+      <p><strong>Step 5:</strong> System error – file naming conflict</p>
+      <p><strong>Step 6:</strong> Deadline has passed</p>
+    `;
+
+    setTimeout(() => {
+      document.getElementById('joke').style.display = 'block';
+      document.getElementById('joke').innerHTML = `
+        <strong>April Fools!</strong><br><br>
+        This opportunity does not exist. But if it did, you’d already have submitted it yesterday.<br><br>
+        Special recognition to Life Sciences admin teams at Imperial – we see you.
+      `;
+    }, 2500);
+  }
+</script>
+
+</body>
+</html>
